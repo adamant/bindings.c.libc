@@ -1,0 +1,6 @@
+*           text=auto
+
+*.vson      text eol=lf encoding=UTF-8
+*.json      text eol=lf encoding=UTF-8
+*.ad        text
+*.md        text
