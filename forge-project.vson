@@ -1,0 +1,5 @@
+{
+    "name": "bindings.c.libc",
+    "authors": ["Jeff Walker Code Ranger"],
+    "template": "lib"
+}

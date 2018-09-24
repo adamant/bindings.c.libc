@@ -1,0 +1,4 @@
+namespace bindings.c.libc;
+
+public type alias char16_t = uint_least16_t;
+public type alias char32_t = uint_least32_t;

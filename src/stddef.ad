@@ -1,0 +1,6 @@
+namespace bindings.c.libc;
+
+public type alias size_t = size;
+
+// TODO not sure if this should be offset or if there should be different types for pointers
+// public type alias ptrdiff_t = offset;

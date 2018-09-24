@@ -1,0 +1,9 @@
+namespace bindings.c.libc;
+
+public const EOF: c_int = -1;
+
+external
+{
+    public getchar() -> c_int;
+    public putchar(ch: c_int) -> c_int;
+}

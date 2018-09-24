@@ -1,0 +1,54 @@
+namespace bindings.c.libc;
+
+// Fixed sized signed integer types
+public type alias int8_t = int8;
+public type alias int16_t = int16;
+public type alias int32_t = int32;
+public type alias int64_t = int64;
+
+// Fastest signed integer type with width of at least 8, 16, 32 and 64 bits respectively
+// int_fast8_t
+// int_fast16_t
+// int_fast32_t
+// int_fast64_t
+
+// Smallest signed integer type with width of at least 8, 16, 32 and 64 bits respectively
+// int_least8_t
+// int_least16_t
+// int_least32_t
+// int_least64_t
+
+// Maximum width integer type
+// intmax_t
+
+// Integer type capable of holding a pointer
+// intptr_t
+
+// Fixed sized signed unsigned integer types
+public type alias uint8_t = uint8;
+public type alias uint16_t = uint16;
+public type alias uint32_t = uint32;
+public type alias uint64_t = uint64;
+
+// Fastest unsigned integer type with width of at least 8, 16, 32 and 64 bits respectively
+// uint_fast8_t
+// uint_fast16_t
+// uint_fast32_t
+// uint_fast64_t
+
+// Smallest unsigned integer type with width of at least 8, 16, 32 and 64 bits respectively
+// uint_least8_t
+// uint_least16_t
+// uint_least32_t
+// uint_least64_t
+
+// uintmax_t
+
+// uintptr_t
+
+// public const INT8_MIN: int8_t = int8.min_value;
+// public const INT16_MIN: int16_t = int16.min_value;
+// public const INT32_MIN: int32_t = int32.min_value;
+// public const INT64_MIN: int64_t = int64.min_value;
+
+// ...

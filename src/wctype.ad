@@ -1,0 +1,5 @@
+namespace bindings.c.libc;
+
+// wint_t
+// wctrans_t
+// wctype_t

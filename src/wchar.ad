@@ -1,0 +1,8 @@
+namespace bindings.c.libc;
+
+// wchar_t
+
+external
+{
+    public putwchar(ch: wchar_t) -> wint_t;
+}
